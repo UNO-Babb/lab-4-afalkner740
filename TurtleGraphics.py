@@ -40,7 +40,7 @@ def main():
     wom = turtle.Turtle()
     sizevar = 100
     for i in range(5):
-       draw_square(wom, sizevar)
+       drawSquare(wom, sizevar)
        sizevar += 40
        wom.penup()
        wom.backward(20)
@@ -48,6 +48,6 @@ def main():
        wom.forward(20)
        wom.left(90)
        wom.pendown()
-fillCorner(myTurtle,2)
+    fillCorner(myTurtle,2)
 
 main()
